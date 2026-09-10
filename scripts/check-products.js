@@ -23,12 +23,11 @@ for (const family of data.products) {
     }
     asins.add(variant.asin);
 
-    // 主图 image_1.jpg
+    // 主图 image_1.jpg（平铺目录结构，无产品族层级）
     const imgPath = path.join(
       publicDir,
       "images",
       "products",
-      family.slug,
       variant.imagesDir,
       "image_1.jpg"
     );
@@ -36,7 +35,7 @@ for (const family of data.products) {
       ok++;
     } else {
       missing++;
-      problems.push(`缺失主图: images/products/${family.slug}/${variant.imagesDir}/image_1.jpg`);
+      problems.push(`缺失主图: images/products/${variant.imagesDir}/image_1.jpg (${family.slug})`);
     }
   }
 }
