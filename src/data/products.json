@@ -1,0 +1,85 @@
+{
+  "commonFeatures": [
+    "Hybrid Nonstick Coating",
+    "PFOA-Free & Non-Toxic",
+    "Works on All Cooktops",
+    "Oven & Dishwasher Safe",
+    "Durable Stainless Steel Construction"
+  ],
+  "products": [
+    {
+      "slug": "frying-pan",
+      "name": "Frying Pans",
+      "tagline": "Non-stick stainless steel skillets",
+      "variants": [
+        { "name": "10-inch + Lid", "asin": "B0H6XPK8ST", "price": 59.99, "imagesDir": "10-in-lid" },
+        { "name": "12-inch + Lid + Handle", "asin": "B0H6XS28WX", "price": 79.99, "imagesDir": "12-in-lid-handle" },
+        { "name": "8/10/12-inch Set", "asin": "B0H5JBBC7Q", "price": 139.99, "imagesDir": "8-10-12-in-set" },
+        { "name": "12-Pc Set", "asin": "B0H6XN943F", "price": 199.99, "imagesDir": "12-pcs-set" },
+        { "name": "12-inch + Lid", "asin": "B0H5J27MLN", "price": 69.99, "imagesDir": "12-in-lid" }
+      ]
+    },
+    {
+      "slug": "sauce-pan",
+      "name": "Sauce Pans",
+      "tagline": "Hybrid nonstick sauce pans with lids",
+      "variants": [
+        { "name": "1.5 & 2.5 QT", "asin": "B0F5QJFWBM", "price": 69.99, "imagesDir": "1-5-2-5-qt" },
+        { "name": "1.5 QT", "asin": "B0HGFNFFPT", "price": 39.99, "imagesDir": "1-5-qt" },
+        { "name": "1.5 & 2.5 & 3.5 QT", "asin": "B0F5QMM7BS", "price": 99.98, "imagesDir": "1-5-2-5-3-5-qt" },
+        { "name": "2.5 QT", "asin": "B0H4H6SJ5D", "price": 49.98, "imagesDir": "2-5-qt" },
+        { "name": "2.5 & 3.5 & 6.1 QT", "asin": "B0H8NSXBNZ", "price": 149.99, "imagesDir": "2-5-3-5-6-1-qt" }
+      ]
+    },
+    {
+      "slug": "saute-pan",
+      "name": "Sauté Pans",
+      "tagline": "Everyday braiser & deep frying pans",
+      "variants": [
+        { "name": "6.5 QT Dual Helper", "asin": "B0F1MPWFDL", "price": 69.99, "imagesDir": "6-5-qt-dual-helper" },
+        { "name": "6.5 QT", "asin": "B0F1MPW4WG", "price": 69.99, "imagesDir": "6-5-qt" },
+        { "name": "5 QT", "asin": "B0FQN8TJ5S", "price": 49.99, "imagesDir": "5-qt" },
+        { "name": "5 QT Dual Helper", "asin": "B0D66BLTZ5", "price": 49.99, "imagesDir": "5-qt-dual-helper" },
+        { "name": "5 QT Set", "asin": "B0F9463F7R", "price": 99.98, "imagesDir": "5-qt-set" },
+        { "name": "5 QT Set Dual Helper", "asin": "B0F946KRYS", "price": 99.99, "imagesDir": "5-qt-set-dual-helper" }
+      ]
+    },
+    {
+      "slug": "wok",
+      "name": "Woks",
+      "tagline": "13-inch hybrid stir-fry pans",
+      "variants": [
+        { "name": "13-inch", "asin": "B0DQXRS7RQ", "price": 75.99, "imagesDir": "13-in" },
+        { "name": "13-inch Double Handle", "asin": "B0FDBHMRFB", "price": 89.99, "imagesDir": "double-helpers" }
+      ]
+    },
+    {
+      "slug": "roasting-pan",
+      "name": "Roasting Pans",
+      "tagline": "Oven-safe to 600°F",
+      "variants": [
+        { "name": "13 x 10-inch", "asin": "B0H8NWMTVM", "price": 99.99, "imagesDir": "roasting-pan" }
+      ]
+    },
+    {
+      "slug": "cutting-board",
+      "name": "Cutting Boards",
+      "tagline": "Double-sided stainless steel",
+      "variants": [
+        { "name": "Set of 1", "asin": "B0D7CZ9Y7D", "price": 29.99, "imagesDir": "set-of-1" },
+        { "name": "Set of 2", "asin": "B0F62SG4QV", "price": 49.99, "imagesDir": "set-of-2" },
+        { "name": "Set of 3", "asin": "B0F1TQH4JP", "price": 89.99, "imagesDir": "set-of-3" }
+      ]
+    },
+    {
+      "slug": "cookware-set",
+      "name": "Cookware Sets",
+      "tagline": "Complete non-stick kitchen sets",
+      "variants": [
+        { "name": "10-Pc Set", "asin": "B0F8B9CDS6", "price": 159.99, "imagesDir": "10-pcs" },
+        { "name": "14-Pc Set", "asin": "B0F6CYHVKX", "price": 249.99, "imagesDir": "14-pcs" },
+        { "name": "20-Pc Set", "asin": "B0H39VNBZS", "price": 399.99, "imagesDir": "20-pcs" }
+      ]
+    }
+  ]
+}

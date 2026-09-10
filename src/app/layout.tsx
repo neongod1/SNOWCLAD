@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { getAllProducts } from "@/lib/products";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,9 +29,15 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const navItems = getAllProducts().map((p) => ({ slug: p.slug, name: p.name }));
+
   return (
     <html lang="en" className={`${inter.variable} ${grotesk.variable}`}>
-      <body className="bg-snow text-ink font-sans antialiased">{children}</body>
+      <body className="bg-snow text-ink font-sans antialiased">
+        <Header navItems={navItems} />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
