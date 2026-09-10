@@ -5,6 +5,8 @@ export interface ProductVariant {
   asin: string;
   price: number;
   imagesDir: string;
+  /** 完整 Amazon 标题（可选；frying-pan 等未提供时缺省） */
+  title?: string;
 }
 
 export interface ProductFamily {

@@ -24,11 +24,11 @@
       "name": "Sauce Pans",
       "tagline": "Hybrid nonstick sauce pans with lids",
       "variants": [
-        { "name": "1.5 & 2.5 QT", "asin": "B0F5QJFWBM", "price": 69.99, "imagesDir": "1-5-2-5-qt" },
-        { "name": "1.5 QT", "asin": "B0HGFNFFPT", "price": 39.99, "imagesDir": "1-5-qt" },
-        { "name": "1.5 & 2.5 & 3.5 QT", "asin": "B0F5QMM7BS", "price": 99.98, "imagesDir": "1-5-2-5-3-5-qt" },
-        { "name": "2.5 QT", "asin": "B0H4H6SJ5D", "price": 49.98, "imagesDir": "2-5-qt" },
-        { "name": "2.5 & 3.5 & 6.1 QT", "asin": "B0H8NSXBNZ", "price": 149.99, "imagesDir": "2-5-3-5-6-1-qt" }
+        { "name": "1.5 & 2.5 QT", "asin": "B0F5QJFWBM", "price": 69.99, "imagesDir": "1-5-2-5-qt", "title": "Sauce pan with lid, 1.5 Quart & 2.5 Quart Hybrid Nonstick Sauce pans set, Stainless Steel Butter Warmer cookware, non stick Pots PFOA Free, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "1.5 QT", "asin": "B0HGFNFFPT", "price": 39.99, "imagesDir": "1-5-qt", "title": "Sauce pan with lid, 1.5 Quart Hybrid Nonstick Sauce pan | Hybrid Upgrade Stainless Steel Butter Warmer Cookware, non stick Pots PFOA Free, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "1.5 & 2.5 & 3.5 QT", "asin": "B0F5QMM7BS", "price": 99.98, "imagesDir": "1-5-2-5-3-5-qt", "title": "Sauce pan with lid, 1.5 Quart & 2.5 Quart & 3.5 Quart Hybrid Nonstick Sauce pans set, Stainless Steel Butter Warmer cookware, non stick Pots PFOA Free, Ceramic and Gas Cooktops" },
+        { "name": "2.5 QT", "asin": "B0H4H6SJ5D", "price": 49.98, "imagesDir": "2-5-qt", "title": "Sauce pan with lid, 2.5 Quart Hybrid Nonstick Sauce pans set, Stainless Steel Butter Warmer cookware, non stick Pots PFOA Free, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "2.5 & 3.5 & 6.1 QT", "asin": "B0H8NSXBNZ", "price": 149.99, "imagesDir": "2-5-3-5-6-1-qt", "title": "Sauce pan with lid, Hybrid Nonstick 2.5 & 3.5 & 6.1 QT Pot Set | Stainless Steel Butter Warmer cookware, non stick Pots PFOA Free, Works on Induction, Ceramic and Gas Cooktops" }
       ]
     },
     {
@@ -36,12 +36,12 @@
       "name": "Sauté Pans",
       "tagline": "Everyday braiser & deep frying pans",
       "variants": [
-        { "name": "6.5 QT Dual Helper", "asin": "B0F1MPWFDL", "price": 69.99, "imagesDir": "6-5-qt-dual-helper" },
-        { "name": "6.5 QT", "asin": "B0F1MPW4WG", "price": 69.99, "imagesDir": "6-5-qt" },
-        { "name": "5 QT", "asin": "B0FQN8TJ5S", "price": 49.99, "imagesDir": "5-qt" },
-        { "name": "5 QT Dual Helper", "asin": "B0D66BLTZ5", "price": 49.99, "imagesDir": "5-qt-dual-helper" },
-        { "name": "5 QT Set", "asin": "B0F9463F7R", "price": 99.98, "imagesDir": "5-qt-set" },
-        { "name": "5 QT Set Dual Helper", "asin": "B0F946KRYS", "price": 99.99, "imagesDir": "5-qt-set-dual-helper" }
+        { "name": "6.5 QT Dual Helper", "asin": "B0F1MPWFDL", "price": 69.99, "imagesDir": "6-5-qt-dual-helper", "title": "Saute Pan, Hybrid Non Stick 6.5 Quart Everyday Braiser pan, Chicken Fryer, PFOA Free Cookware, 12.5 inch Deep Frying Pans with Lid, Dishwasher and Oven Safe, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "6.5 QT", "asin": "B0F1MPW4WG", "price": 69.99, "imagesDir": "6-5-qt", "title": "Frying Pans Nonstick with Lid, Hybrid Non Stick 6.5 Quart Saute Braiser pan, PFOA Free Cookware, 12.5 inch Stainless Steel skillet, Dishwasher and Oven Safe, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "5 QT", "asin": "B0FQN8TJ5S", "price": 49.99, "imagesDir": "5-qt", "title": "SNOWCLAD Frying Pans Nonstick with Lid, Hybrid Non Stick 5 Quart Saute pan, PFOA Free Cookware, Stainless Steel skillet, 12 inch Deep Saute Pan, Dishwasher & Oven Safe, Works on All Cooktops" },
+        { "name": "5 QT Dual Helper", "asin": "B0D66BLTZ5", "price": 49.99, "imagesDir": "5-qt-dual-helper", "title": "Saute Pan, Hybrid Non Stick 5 Quart Everyday Braiser pan, Chicken Fryer, PFOA Free Cookware, 12 inch Deep Frying Pans with Lid, Dishwasher and Oven Safe, Works on Induction, Ceramic and Gas Cooktops" },
+        { "name": "5 QT Set", "asin": "B0F9463F7R", "price": 99.98, "imagesDir": "5-qt-set", "title": "Frying Pans Nonstick Set with Lid, Hybrid Non Stick 5 Quart Saute pan, 10 inch Skillet, 8 inch Skillet PFOA Free Cookware, Stainless Steel skillet, Deep Braiser, Dishwasher Safe, Works on All Cooktops" },
+        { "name": "5 QT Set Dual Helper", "asin": "B0F946KRYS", "price": 99.99, "imagesDir": "5-qt-set-dual-helper", "title": "Saute Pan Set, Hybrid Non Stick 5 Quart Everyday Braiser pan, 10 inch skillet, 8 inch skillet, Chicken Fryer, PFOA Free Cookware, Deep Frying Pans with Lid, Dishwasher and Oven Safe, Works on All Cooktops" }
       ]
     },
     {
@@ -49,8 +49,8 @@
       "name": "Woks",
       "tagline": "13-inch hybrid stir-fry pans",
       "variants": [
-        { "name": "13-inch", "asin": "B0DQXRS7RQ", "price": 75.99, "imagesDir": "13-in" },
-        { "name": "13-inch Double Handle", "asin": "B0FDBHMRFB", "price": 89.99, "imagesDir": "double-helpers" }
+        { "name": "13-inch", "asin": "B0DQXRS7RQ", "price": 75.99, "imagesDir": "13-in", "title": "SNOWCLAD Wok, 13 Inch Hybrid Woks & Stir-fry Pans Nonstick, Non Toxic Stainless Steel Wok Pan with Lid, Dishwasher Induction Oven Broiler Safe, PFOA Free Cookware Non Stick" },
+        { "name": "13-inch Double Handle", "asin": "B0FDBHMRFB", "price": 89.99, "imagesDir": "double-helpers", "title": "SNOWCLAD Wok, 13 Inch Hybrid Woks & Stir-fry Pans Nonstick with Double Handles, Non Toxic Stainless Steel Wok Pan with Lid, Dishwasher Induction Oven Broiler Safe" }
       ]
     },
     {
@@ -58,7 +58,7 @@
       "name": "Roasting Pans",
       "tagline": "Oven-safe to 600°F",
       "variants": [
-        { "name": "13 x 10-inch", "asin": "B0H8NWMTVM", "price": 99.99, "imagesDir": "roasting-pan" }
+        { "name": "13 x 10-inch", "asin": "B0H8NWMTVM", "price": 99.99, "imagesDir": "roasting-pan", "title": "Roasting pan, Hybrid 13 x 10 Inch Non stick Stainless Steel Roasting Pan, Dishwasher Safe, Oven Safe to 600°F, Compatible with All Cooktops" }
       ]
     },
     {
@@ -66,9 +66,9 @@
       "name": "Cutting Boards",
       "tagline": "Double-sided stainless steel",
       "variants": [
-        { "name": "Set of 1", "asin": "B0D7CZ9Y7D", "price": 29.99, "imagesDir": "set-of-1" },
-        { "name": "Set of 2", "asin": "B0F62SG4QV", "price": 49.99, "imagesDir": "set-of-2" },
-        { "name": "Set of 3", "asin": "B0F1TQH4JP", "price": 89.99, "imagesDir": "set-of-3" }
+        { "name": "Set of 1", "asin": "B0D7CZ9Y7D", "price": 29.99, "imagesDir": "set-of-1", "title": "SNOWCLAD Stainless Steel Cutting Board, Non Toxic chopping for kitchen | Metal Cutting Board, Double Sided Stainless Steel/Wheat straw pp Large for meat, Dishwasher Safe [16*11Inch]" },
+        { "name": "Set of 2", "asin": "B0F62SG4QV", "price": 49.99, "imagesDir": "set-of-2", "title": "SNOWCLAD Stainless Steel Cutting Board Set of 2 for kitchen | Non-Toxic Metal Cutting Board, Double Sided Stainless Steel/Wheat straw pp Large for meat, Dishwasher Safe [16*11+12*8.3 Inch]" },
+        { "name": "Set of 3", "asin": "B0F1TQH4JP", "price": 89.99, "imagesDir": "set-of-3", "title": "EXTRA LARGE Stainless Steel Cutting Board Set of 3 for kitchen | Non Toxic Metal Cutting Board, Double Sided Stainless Steel/Wheat pp Large for meat, Dishwasher Safe, 20*13.8+16*11+12*8.3 Inch" }
       ]
     },
     {
@@ -76,9 +76,9 @@
       "name": "Cookware Sets",
       "tagline": "Complete non-stick kitchen sets",
       "variants": [
-        { "name": "10-Pc Set", "asin": "B0F8B9CDS6", "price": 159.99, "imagesDir": "10-pcs" },
-        { "name": "14-Pc Set", "asin": "B0F6CYHVKX", "price": 249.99, "imagesDir": "14-pcs" },
-        { "name": "20-Pc Set", "asin": "B0H39VNBZS", "price": 399.99, "imagesDir": "20-pcs" }
+        { "name": "10-Pc Set", "asin": "B0F8B9CDS6", "price": 159.99, "imagesDir": "10-pcs", "title": "SNOWCLAD Pots and Pans Set Non Stick | Stainless Steel Kitchen Cookware | 10 Pcs | PFOA Free | Hybrid | Induction Compatible | Frying Skillet, Saucepans, Saute Pan & Stock Pot" },
+        { "name": "14-Pc Set", "asin": "B0F6CYHVKX", "price": 249.99, "imagesDir": "14-pcs", "title": "SNOWCLAD Pots and Pans Set Non Stick | Stainless Steel Kitchen Cookware | 14 Pcs | PFOA Free | Hybrid | Induction Compatible | Frying Skillet, Saucepans, Saute Pan & Stock Pot" },
+        { "name": "20-Pc Set", "asin": "B0H39VNBZS", "price": 399.99, "imagesDir": "20-pcs", "title": "SNOWCLAD Pots and Pans Set Non Stick | Stainless Steel Kitchen Cookware | 20 Pcs | PFOA Free | Hybrid | Induction Compatible | Frying Skillet, Saucepans, Saute Pan & Stock Pot" }
       ]
     }
   ]

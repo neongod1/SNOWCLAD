@@ -91,7 +91,10 @@ export default function ProductDetailClient({
           <h1 className="font-display text-3xl font-semibold text-primary sm:text-4xl">
             {family.name}
           </h1>
-          <p className="mt-2 text-mist">{family.tagline}</p>
+          {/* 完整标题（缺省时回退到简短 tagline） */}
+          <p className="mt-2 leading-relaxed text-mist">
+            {variant.title ?? family.tagline}
+          </p>
 
           {/* 变体选择器 */}
           {family.variants.length > 1 && (
