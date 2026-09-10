@@ -37,18 +37,19 @@ export function getAmazonUrl(asin: string): string {
   return `https://www.amazon.com/dp/${asin}?th=1`;
 }
 
-export function variantImageDir(family: ProductFamily, variant: ProductVariant): string {
-  return `/images/products/${family.slug}/${variant.imagesDir}`;
+export function variantImageDir(_family: ProductFamily, variant: ProductVariant): string {
+  // 图片按用户上传的平铺目录读取：/images/products/{imagesDir}/image_N.jpg
+  return `/images/products/${variant.imagesDir}`;
 }
 
 export function variantMainImage(family: ProductFamily, variant: ProductVariant): string {
   return `${variantImageDir(family, variant)}/image_1.jpg`;
 }
 
-/** 画廊：主图 + 潜在 image_2~image_6；缺失的由前端 onError 自动隐藏 */
+/** 画廊：主图 + 潜在 image_2~image_9；缺失的由前端 onError 自动隐藏 */
 export function variantGallery(family: ProductFamily, variant: ProductVariant): string[] {
   const dir = variantImageDir(family, variant);
-  return [1, 2, 3, 4, 5, 6].map((n) => `${dir}/image_${n}.jpg`);
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => `${dir}/image_${n}.jpg`);
 }
 
 export function formatPrice(price: number): string {
