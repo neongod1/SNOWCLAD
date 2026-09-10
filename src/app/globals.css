@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── SNOWCLAD 品牌色 · 冷冰川蓝系 ── */
+  --color-primary: #0a3b5c;      /* Glacier 主色：Logo/Footer/主按钮/标题强调 */
+  --color-primary-deep: #06283f; /* 深冰川蓝：Footer 深底 */
+  --color-ice: #1f7a9e;          /* 钢蓝 Secondary：链接/次级高亮/图标 */
+  --color-arctic: #25a0c5;       /* 冰川青 Accent：CTA 按钮/价格/hover */
+  --color-snow: #f6fafc;         /* 背景冷白 Background */
+  --color-ink: #132a3a;          /* 主文字钢墨 Text */
+  --color-mist: #61788a;         /* 次要文字 Muted */
+  --color-frost: #dbe7ef;        /* 边框 Border */
+  --color-frost-tint: #edf4f8;   /* 交替区块背景 */
+
+  /* ── 字体 ── */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-grotesk);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-snow);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  ::selection {
+    background-color: var(--color-arctic);
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  /* ── 页面容器 ── */
+  .container-page {
+    width: 100%;
+    max-width: 80rem; /* 1280px */
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* ── 按钮体系 ── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    border-radius: 9999px;
+    padding: 0.75rem 1.75rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: #ffffff;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-primary-deep);
+  }
+  .btn-accent {
+    background-color: var(--color-arctic);
+    color: #ffffff;
+  }
+  .btn-accent:hover {
+    background-color: #1d8db0;
+  }
+  .btn-outline {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-frost);
+  }
+  .btn-outline:hover {
+    border-color: var(--color-arctic);
+    color: var(--color-arctic);
+  }
+  .btn-white {
+    background-color: #ffffff;
+    color: var(--color-primary);
+  }
+  .btn-white:hover {
+    background-color: #eef4f8;
+  }
+}
